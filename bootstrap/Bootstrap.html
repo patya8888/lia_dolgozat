@@ -1,0 +1,126 @@
+
+<!-- saved from url=(0079)http://oktatas.itstudy.hu/pluginfile.php/4181/mod_assign/intro/teme_start0.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Bootstrap</title>
+
+<!-- ide kell a bootstrapet be sourceolni -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+
+
+.menu{
+  display: flex}
+
+.top-menu{
+  /* TODO: margo alul 20, felul 10 px legyen! */
+  background-color: #00786B;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.menu-item {
+  flex-grow:1;
+  /* TODO: margo felul 3px, jobbra 0px, alul 5px, balra 0px */
+  color: white;
+  background-color: #0C3581;
+  margin-bottom: 5px;
+  margin-top: 3px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.menu-item:hover {
+  background-color: #567ABD;
+}
+
+.main-content {
+  background-color: #6E92A1;
+  height: 600px;
+}
+
+.logo {
+  /* TODO: a szoveg kozepre legyen igazitva */
+  /* TODO: 11px-es padding legyen korbe */
+  background-color: #F8A204;
+ text-align: left;
+ padding-bottom: 11px;   
+ padding-right: 11px;
+ padding-left: 11px;
+ padding-top: 11px;
+}
+.side-ad {
+  height: 300px;
+  background-color: #4CC02D;
+
+}
+.secondary-menu {
+  background-color: #3C1A86;
+  color:white;
+}
+.secondary-menu-item {
+  background-color: #671182;
+}
+.footer {
+  background-color: #22907E;
+
+}
+body {
+  background-color: #567ABD;
+}
+.navbar-default{
+
+}
+
+
+</style>
+
+</head><body><nav class="container top-menu">
+  <div class="row">
+    <!-- TODO: A logot korulvevo div legkisebb meretben 12, medium meretben 3 hosszusagu legyen -->
+    <div class="logo <col>0-xs-12 col-md-3">
+    Logo
+    </div>
+    <!-- TODO: A menu elemeket korulvevo div legkisebb meretben 12 medium meretben 6 hosszu legyen -->
+    <div class="menu col-md-6 col-sm-12">
+      <a class="btn menu-item">Button3</a>
+      <a class="btn menu-item">Button3</a>
+      <a class="btn menu-item">Button3</a>
+    </div>
+  </div>
+</nav>
+<!-- ide kelll a main content -->
+<div class="container">
+  <div class="side-ad hidden-xs hidden-sm col-md-3">
+   sidebar
+  </div>
+
+
+  <div class="main-content col-xs-12 col-sm-12 col-md-9">
+    
+    <div class="row secondary-menu">
+      <div class="secondary-menu-item col-xs-2 pull-right">secondarymenu1</div>
+      <div class="secondary-menu-item col-xs-2 pull-right">secondarymenu2</div>
+   </div>
+   <h1>
+    Main content
+    </h1>
+    <p>nincsnet nincs szöveg</p>
+   </div>
+     
+   </div>
+
+  
+
+
+<div class="container">
+  <div class="row">
+    <div class="footer">
+    footer
+    </div>
+  </div>
+</div>
+
+
+
+</body></html>
